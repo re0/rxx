@@ -198,7 +198,19 @@
             }
         }
     ],
-
+    "routing": {
+        "domainStrategy": "AsIs",
+        "rules": [
+            {
+                "type": "field",
+                "domain": [
+                    "domain:openai.com",
+                    "domain:*.*"
+                ],
+                "outboundTag": "WARP"
+            }
+        ]
+    },
     "dns": {
         "server": [
             "8.8.8.8",
