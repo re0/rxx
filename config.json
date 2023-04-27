@@ -204,7 +204,7 @@
                                 "inboundTag": [
                                         "proxy"
                                 ],
-                                "network": "tcp,udp",
+                                "network": "tcp",
                                 "outboundTag": "WARP",
                                 "type": "field"
             }
