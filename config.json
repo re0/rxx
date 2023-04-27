@@ -176,10 +176,7 @@
         }
     ],
     "outbounds": [
-        {
-            "protocol": "freedom",
-            "settings": {}
-        },
+     
         {
             "tag": "WARP",
             "protocol": "wireguard",
