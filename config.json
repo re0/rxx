@@ -198,16 +198,15 @@
             }
         }
     ],
-    "routing": {
-        "domainStrategy": "AsIs",
-        "rules": [
-            {
-                "type": "field",
-                "domain": [
-                    "domain:openai.com",
-                    "domain:*.*"
-                ],
-                "outboundTag": "WARP"
+       "routing": {
+                "rules": [
+                        {
+                                "inboundTag": [
+                                        "proxy"
+                                ],
+                                "network": "tcp,udp",
+                                "outboundTag": "WARP",
+                                "type": "field"
             }
         ]
     },
