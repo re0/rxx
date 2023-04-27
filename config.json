@@ -39,7 +39,7 @@
                 ]
             },
             "streamSettings": {
-                "network": "udp"
+                "network": "tcp"
             }
         },
         {
@@ -201,7 +201,7 @@
                                 "inboundTag": [
                                         "proxy"
                                 ],
-                                "network": "udp",
+                                "network": "tcp",
                                 "outboundTag": "WARP",
                                 "type": "field"
             }
